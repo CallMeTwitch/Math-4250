@@ -83,7 +83,7 @@ def calculateMetrics(rewards: np.ndarray, actions: np.ndarray, bestActions: np.n
 
     return averageRewardPerTimestep, averageAccumulatedReward, pctOptimalActionsPerTimestep, pctOptimalActions, averageNormalizedAccumulatedReward, averageTerminalRewardDistribution
 
-def savePlots(agents: List[Callable], data: Dict[str, List[np.ndarray[float] | float]], bandits: Callable, folder: str) -> None:
+def savePlots(agents: List, data: Dict, bandits: Callable, folder: str) -> None:
     '''
     Generate and save plots documenting performance data.
 

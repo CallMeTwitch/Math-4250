@@ -9,7 +9,7 @@ import os
 
 warnings.filterwarnings('ignore')
 
-def run(agentClass: Callable, banditClass: Callable, numSimulations: int, numTimesteps: int) -> Tuple[np.ndarray[Union[float, int]]]:
+def run(agentClass: Callable, banditClass: Callable, numSimulations: int, numTimesteps: int) -> Tuple:
     '''
     Run simulations with agent and bandit classes.
 
@@ -54,7 +54,7 @@ def run(agentClass: Callable, banditClass: Callable, numSimulations: int, numTim
 
     return rewards, actions, bestActions, worstRewards, bestRewards
 
-def calculateMetrics(rewards: np.ndarray[float], actions: np.ndarray[int], bestActions: np.ndarray[int], bestRewards: np.ndarray[float], worstRewards: np.ndarray[float]) -> Tuple[np.ndarray[float] | float]:
+def calculateMetrics(rewards: np.ndarray, actions: np.ndarray, bestActions: np.ndarray, bestRewards: np.ndarray, worstRewards: np.ndarray) -> Tuple:
     '''
     Calculate metrics from simulation data.
 

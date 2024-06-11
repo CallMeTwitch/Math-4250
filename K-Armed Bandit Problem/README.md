@@ -1,4 +1,4 @@
-This directory contains all code required to reproduce the results from [Accompanying Paper][FILE_NAME.pdf].
+This directory contains all code required to reproduce the results from [Accompanying Paper](FILE_NAME.pdf).
 
 Simply running the following will display all statistics and save all figures.
 ```
@@ -61,5 +61,7 @@ CustomAgent(discount = 0.8) (AAR = 10891.695, POA = 45.225%, ANAR = 0.778)
 ```
 
 `Section 1` describes the statistics in the Stationary environment, `Section 2.1.1` describes the statistics in the Drifting environment, `Section 2.1.2` describes the statistics in the Mean-Reverting environment, and `Section 2.2` describes the statistics in the Abruptly Changing environment.
+
+Please note that the time required to run this script may vary drastically per computer.
 
 The figures for environment will be saved in a directory with the appropriate name. Descriptions of said figures can be found in the paper.

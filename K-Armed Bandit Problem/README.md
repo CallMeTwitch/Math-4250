@@ -64,4 +64,4 @@ CustomAgent(discount = 0.8) (AAR = 10891.695, POA = 45.225%, ANAR = 0.778)
 
 Please note that the time required to run this script may vary drastically per computer.
 
-The figures for environment will be saved in a directory with the appropriate name. Descriptions of said figures can be found in the paper.
+The figures for each environment will be saved in respectively named folders. Descriptions of said figures can be found in the paper.

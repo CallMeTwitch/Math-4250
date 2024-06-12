@@ -1,4 +1,4 @@
-This directory contains all code required to reproduce the results from [Accompanying Paper](FILE_NAME.pdf).
+This directory contains all code required to reproduce the results from [Math_4250_Project_1.pdf](Math_4250_Project_1.pdf).
 
 Simply running the following will display all statistics and save all figures.
 ```

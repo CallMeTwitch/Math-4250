@@ -1,5 +1,5 @@
 from collections import defaultdict
-from GridWorld3 import GridWorld
+from GridWorld import GridWorld
 from tqdm import tqdm
 import numpy as np
 

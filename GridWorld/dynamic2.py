@@ -1,4 +1,4 @@
-from GridWorld3 import GridWorld
+from GridWorld import GridWorld
 import numpy as np
 
 # Dimensions: (time step, state column, state row, next state column, next state row, action, reward)

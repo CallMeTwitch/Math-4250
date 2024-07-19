@@ -1,6 +1,5 @@
 from typing import Generator, ItemsView, Tuple
 from matplotlib import pyplot as plt
-from matplotlib import patches
 import seaborn as sns
 import numpy as np
 

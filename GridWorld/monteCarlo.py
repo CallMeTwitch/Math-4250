@@ -143,6 +143,8 @@ def monteCarloOffPolicy(behaviourPolicy: np.ndarray, env: GridWorld, episodes: i
 
             if action != Q[state].argmax():
                 W *= behaviourPolicy[state].reshape(4)[action]
+            else:
+                continue
 
     return Q, Q.argmax(axis = 2)
 

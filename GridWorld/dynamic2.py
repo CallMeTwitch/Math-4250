@@ -19,41 +19,6 @@ env[0, 4] = {a: {((4, 2), 2.5): 0.5, ((4, 4), 2.5): 0.5} for a in range(4)}
 env.addTerminalState(4, 0)
 env.addTerminalState(2, 4)
 
-def fac(x: int, d: dict = {}) -> int:
-    '''
-    Factorial function.
-
-    Keyword Arguments:
-        x (int): Input to factorial function.
-        d (dict): Argument should not be passed. Only used for memoization.
-
-    Returns:
-        (int): x!
-    '''
-
-    if x not in d:
-        d[x] = x * fac(x - 1) if x else 1
-    
-    return d[x]
-
-def binom(n: int, k: int, d: dict = {}) -> int:
-    '''
-    Binomial coefficient (\binom{n}{k})
-
-    Keyword Arguments:
-        n (int): First parameter of binomial coefficient.
-        k (int): Second parameter of binomial coefficient.
-        d (dict): Argument should not be passed. Only use for memoization.
-
-    Returns:
-        (int): \binom{n}{k}
-    '''
-    
-    if (n, k) not in d:
-        d[(n, k)] = fac(n) // (fac(k) * fac(n - k))
-
-    return d[(n, k)]
-
 rewardsList = rewards[0, 0, 0, 0, 0, 0].tolist()
 for t in range(MAX_EPISODE_LENGTH):
     for y, x, block in env:

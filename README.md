@@ -19,3 +19,5 @@ Abstract: This paper implements and analyzes a wide range of methods for solving
 
 ## Project 3: GridWorld Extended
 Abstract: This paper extends the experiments and results conducted and derived in our previous GridWorld paper by implementing different algorithms (including SARSA, Q-Learning, Gradient Monte Carlo, and Semi-Gradient $\text{TD}(0)$) in more complex environments. In applying these methods to more complex variations of the GridWorld environment (including a custom adversarial 'predator-prey' setup) we hope to test the limits of these algorithms, and gain real insight into their individual strengths and weaknesses. This paper reports our findings, comparing the abilities of these algorithms in solving complex GridWorld problems. Through these experiements, we hope to extend the boundary of our knowledge in RL, and demonstrate the practical capabilities of these algorithms in the real world.
+
+[Accompanying Paper](<GridWorldExtended/Math_4250_Project_3.pdf>)
